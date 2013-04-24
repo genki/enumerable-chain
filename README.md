@@ -1,6 +1,6 @@
 # Enumerable::Chain
 
-TODO: Write a gem description
+Provides method chain for each items of Enumerable
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require "pp"
+pp 10.times.<.**(3).> #=> [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+pp 10.times.<.**(4).>.select{|i| i>100}.<.to_s.length.> #=> [3, 3, 4, 4, 4, 4]
 
 ## Contributing
 
