@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-require "pp"
-pp 10.times.<.**(3).> #=> [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
-pp 10.times.<.**(4).>.select{|i| i>100}.<.to_s.length.> #=> [3, 3, 4, 4, 4, 4]
+    require "pp"
+    pp 10.times.<.**(3).> #=> [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+    pp 10.times.<.**(4).>.select{|i| i>100}.<.to_s.length.> #=> [3, 3, 4, 4, 4, 4]
 
 ## Contributing
 
